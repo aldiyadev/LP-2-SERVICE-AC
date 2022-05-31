@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.frame-1 {
+    background-image: url(../img/bg-1.png);
+    background-size: cover;
+}
+
+.frame-2 {
+    background-image: url(../img/bg-2.png);
+    background-size: cover;
+}
+
+.frame-3{
+    background-image: url(../img/bg-3.png);
+    background-size: cover; 
+}
+
+.frame-4{
+    background-image: url(../img/bg-4.png);
+    background-size: cover; 
+    padding-bottom: 5%;
+}
+
+.frame-4{
+    background-image: url(../img/bg-4.png);
+    background-size: cover; 
+}
+
+.frame-5{
+    background-image: url(../img/bg-4.png);
+    background-size: cover; 
+}
+
+.frame-6{
+    background-image: url(../img/bg-2.png);
+    background-size: cover; 
+}
+
+.domo-kanan, .domo-kiri {
+    margin: 0 !important;
+}
+
+.outer-container {
+    position: relative;
+}
+
+.down-arrow {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    max-width: 60px;
+}
+
+.frame-padding-top {
+    padding-top : 7%;
+}
+
+.frame-padding-bottom {
+    padding-bottom : 7%;
+}
+
+
+/* frame-1 */
+
+.frame-1-title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #969696 0%, #FFFFFF 26.56%, #969696 49.76%, #969696 59.37%, #FFFFFF 76.56%, #969696 97.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.frame-2-title {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.frame-2-sub-title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* frame 3 */
+.frame-3-title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #E60202;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frame-3-sub-title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.frame-3-sub-title-2 {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 66px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.frame-4-title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frame-4-sub-title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 130%; 
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.frame-4-desc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.frame-5-title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: black;
+}
+
+.frame-5-sub-title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: black;
+}
+
+.frame-5-desc {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: white;
+    /* -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 5px 6px 15px rgba(0, 0, 0, 0.35);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .frame-5-title {
+        font-size: 7vw;
+    }
+
+    .frame-5-sub-title {
+        font-size: 5vw;
+    }
+
+    .frame-5-desc {
+        font-size: 7vw;
+    }
+
+    .frame-4 {
+        padding-bottom : 45%;
+    }
+
+    .domo-kiri {
+        margin: 0 !important;
+        margin-left: -5% !important;
+
+    }
+
+    .frame-4-title {
+        margin-top: 5%;
+        font-size: 8vw;
+    }
+
+    .frame-4-sub-title {
+        font-size: 5vw;
+        margin-top: 5%;
+    }
+
+    .frame-3-sub-title-2 {
+        font-size: 5vw;
+    }
+
+    .frame-3-title {
+        font-size: 9vw;
+    }
+
+    .frame-3-sub-title {
+        font-size: 7vw;
+    } 
+
+    .delapan {
+        line-height: 120%;
+    }
+
+    .frame-2-sub-title  {
+        font-size: 5vw;
+    }
+
+    .frame-2-title {
+        font-size: 5vw;
+    }
+
+    .frame-1-title {
+        font-size: 7vw;
+    }
+
+    .domo-center {
+        width: 50vw;
+    }
+
+    .frame-padding-bottom {
+        padding-bottom : 20%;
+    }
+
+}
